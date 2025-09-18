@@ -24,3 +24,17 @@ button:hover{
 #GAME{
     display: none;
 }
+
+.stats{
+    border: solid black 2px;
+    width: 30%;
+    margin: 0 auto;
+
+    margin-top: 10%;
+}
+
+@media only screen and (max-width: 600px) {
+  .stats{
+    width: 80%;
+  }
+}
