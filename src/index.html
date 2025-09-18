@@ -1,0 +1,41 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web test</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="./img/Rock.png">
+</head>
+<body>
+
+    <h1>ROCK PAPER SCISSORS</h1>
+    <section id="SELECT">
+        <img src="img/Rock.png" alt="Picture of a rock" width="200" id="Rock" class="playerButtons">
+        <img src="img/Paper.png" alt="Picture of a sheet of Paper" width="200" id="Paper" class="playerButtons">
+        <img src="img/Scissors.png" alt="Picture of a pair of Scissors" width="200" id="Scissors" class="playerButtons">
+
+        <p id="selectedText">Currently Selected: None</p>
+        <div class="buttons">
+            <button id="throw">Throw</button>
+        </div>
+    </section>
+
+    <section id="GAME">
+        <div id="images">
+            <h2>Your Choice</h2>
+            <img id="playerSelection" width="200" src="img/Scissors.png">
+            <p>VS</p>
+            <img id="randomSelection" width="200" src="img/Rock.png">
+            <h2>Robot's Choice</h2>
+        </div>
+
+        <p id="winnerText"> Rock wins!</p>
+        <div class="buttons">
+            <button id="return">Try Again</button>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

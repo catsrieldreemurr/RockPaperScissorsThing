@@ -1,0 +1,26 @@
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.playerButtons:hover{
+    border: solid black 2px;
+}
+
+button{
+    padding: 10px;
+    background-color: transparent;
+}
+
+button:hover{
+    background-color:lightblue;
+}
+
+#images{
+    display: inline;
+}
+
+#GAME{
+    display: none;
+}
